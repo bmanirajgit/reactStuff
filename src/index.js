@@ -41,7 +41,8 @@ function Assignment8(props) {
 
   return (
     <div>
-      <p>{title}</p>
+    <h1 align="Center">SWE 432 Assignment 4 by Bharath Maniraj and Isaac Kim</h1>
+      <p>Test:D</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
 
     Enter number of Characteristics here:
