@@ -42,8 +42,10 @@ function Assignment8(props) {
   return (
     
     <div>
-    
-    <h1 align="Center">SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
+  <style>
+  {'body{background-color:#BEF0FF;}' }
+  </style>
+    <h1>SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
     <p style="text-align: center">In the first box, enter the number of numbers that you want to put in. (example: 7)<br/>
 In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br/>
 Then press 'submit'</p>
