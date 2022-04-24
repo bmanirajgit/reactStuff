@@ -41,7 +41,13 @@ function Assignment8(props) {
 
   return (
     <div>
-    <h1 align="Center">SWE 432 Assignment 4 by Bharath Maniraj and Isaac Kim lol</h1>
+    <h1 align="Center">SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
+    <center>
+    <p style="text-align: center">
+    In the first box, enter the number of numbers that you want to put in. (example: 7)<br>
+    In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br>
+    Then press 'submit'<br>
+    </p>
       <p>Test:D</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
 
@@ -57,6 +63,7 @@ function Assignment8(props) {
     <button type="submit">submit</button>
 
 </form>
+</center>
     </div>
   );
 }
