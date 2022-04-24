@@ -45,7 +45,7 @@ function Assignment8(props) {
   <style>
   {'body{background-color:#BEF0FF;}' }
   </style>
-    <h1>SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
+    <h1 style={{textAlign: "center",}}>SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
     <p style={{textAlign: "center",}}>In the first box, enter the number of numbers that you want to put in. (example: 7)<br/>
 In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br/>
 Then press 'submit'</p>
@@ -53,7 +53,7 @@ Then press 'submit'</p>
 
     Enter number of Characteristics here:
     <br/>
-    <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange}></input>
+    <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} style={{textAlign: "center",}}></input>
     <br/><br/>
     Enter number of blocks per characteristic here: (seperated by whitespaces)
     <br/>
