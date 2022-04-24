@@ -41,7 +41,7 @@ function Assignment8(props) {
 
   return (
     <div>
-    <h1 align="Center">SWE 432 Assignment 4 by Bharath Maniraj and Isaac Kim</h1>
+    <h1 align="Center">SWE 432 Assignment 4 by Bharath Maniraj and Isaac Kim lol</h1>
       <p>Test:D</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
 
