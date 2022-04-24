@@ -54,7 +54,8 @@ Then press 'submit'</p>
 
 
 <View style={{alignItems: 'center', justifyContent: 'center', flex: 1, }}>
-        Enter number of Characteristics here:
+        <TextInput
+          Enter number of Characteristics here:
     <br/>
     <input type="text" style={{textAlign: "center",}} name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     <br/><br/>
@@ -64,6 +65,7 @@ Then press 'submit'</p>
     <br/><br/>
 
     <button type="submit">submit</button>
+        />
       </View>
 
 
