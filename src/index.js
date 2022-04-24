@@ -51,11 +51,7 @@ In the second box, enter as many numbers as you put for the first box separated 
 Then press 'submit'</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
 
-
-
-<View style={{alignItems: 'center', justifyContent: 'center', flex: 1, }}>
-        <TextInput
-          Enter number of Characteristics here:
+    Enter number of Characteristics here:
     <br/>
     <input type="text" style={{textAlign: "center",}} name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     <br/><br/>
@@ -65,11 +61,6 @@ Then press 'submit'</p>
     <br/><br/>
 
     <button type="submit">submit</button>
-        />
-      </View>
-
-
-    
 
 </form>
     </div>
