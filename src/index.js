@@ -45,7 +45,7 @@ function Assignment8(props) {
     <center>
     <p style="text-align: center">
     In the first box, enter the number of numbers that you want to put in. (example: 7)<br/>
-    In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br>
+    In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br/>
     Then press 'submit'<br/>
     </p>
       <p>Test:D</p>
