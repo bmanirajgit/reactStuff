@@ -41,7 +41,7 @@ function Assignment8(props) {
 
   return (
     <style>
-body {background-color:#BEF0FF}
+{'body{background-color:#BEF0FF;}' }
 </style>
     <div>
     <h1 align="Center">SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
