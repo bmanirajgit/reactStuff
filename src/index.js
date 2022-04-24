@@ -48,6 +48,7 @@ function Assignment8(props) {
     In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br/>
     Then press 'submit'<br/>
     </p>
+    </center>
       <p>Test:D</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
 
@@ -63,7 +64,7 @@ function Assignment8(props) {
     <button type="submit">submit</button>
 
 </form>
-</center>
+
     </div>
   );
 }
