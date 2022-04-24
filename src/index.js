@@ -53,11 +53,11 @@ Then press 'submit'</p>
 
     Enter number of Characteristics here:
     <br/>
-    <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} style={{textAlign: "center",}}></input>
+    <input type="text" style={{textAlign: "center",}} name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     <br/><br/>
     Enter number of blocks per characteristic here: (seperated by whitespaces)
     <br/>
-    <input type="text" name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
+    <input type="text" style={{textAlign: "center",}} name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
     <br/><br/>
 
     <button type="submit">submit</button>
