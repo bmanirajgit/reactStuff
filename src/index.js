@@ -45,7 +45,7 @@ function Assignment8(props) {
   {'body{background-color:#BEF0FF;}' }
   </style>
     <h1 style={{textAlign: "center",}}>SWE 432 Assignment 8 by Bharath Maniraj and Isaac Kim lol</h1>
-    <p style={{textAlign: "center",}}>In the first box here, enter the number of numbers that you want to put in. (example: 7)<br/>
+    <p style={{textAlign: "center",}}>In the first box seen here, enter the number of numbers that you want to put in. (example: 7)<br/>
 In the second box, enter as many numbers as you put for the first box separated by whitespaces. (example: 1 2 3 4 5 6 7)<br/>
 Then press 'submit'</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
