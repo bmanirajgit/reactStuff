@@ -40,7 +40,11 @@ function Assignment8(props) {
 
   return (
     
-    <div style = {{justifyContent: 'center', alignItems:'center',}}>
+    <div style = {{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
   <style>
   {'body{background-color:#BEF0FF;}' }
   </style>
@@ -52,11 +56,11 @@ Then press 'submit'</p>
 
     Enter number of Characteristics here:
     <br/>
-    <input type="text" style = {{justifyContent: 'center', alignItems:'center',}} name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
+    <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     <br/><br/>
     Enter number of blocks per characteristic here: (seperated by whitespaces)
     <br/>
-    <input type="text" style={{textAlign: "center",}} name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
+    <input type="text" name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
     <br/><br/>
 
     <button type="submit">submit</button>
