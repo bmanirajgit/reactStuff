@@ -37,6 +37,7 @@ function Assignment8(props) {
     [] // no need to include dependency setSecondValue: setters do not mutate
   );
   
+/*  
 const styles = StyleSheet.create({
   mainContainer: { flex: 1 },
   container: {
@@ -54,6 +55,7 @@ const styles = StyleSheet.create({
     top: 100
   }
 });
+*/
 
   return (
     
@@ -78,7 +80,7 @@ Then press 'submit'</p>
     <input type="text" name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
     <br/><br/>
 
-    <button type="submit" style={styles.container}>submit</button>
+    <button type="submit">submit</button>
 
 </form>
     </div>
