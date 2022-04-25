@@ -71,20 +71,18 @@ In the second box, enter as many numbers as you put for the first box separated 
 Then press 'submit'</p>
       <form method="post" action="https://ikim26firstwebapp.herokuapp.com/Assignment4">
 
-    <p style={{textAlign: "center",}}>Enter number of Characteristics here:</p>
+    Enter number of Characteristics here:
     <br/>
     <p style={{textAlign: "center",}}>
     <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     </p>
     <br/><br/>
-    <p style={{textAlign: "center",}}>Enter number of blocks per characteristic here: (seperated by whitespaces)</p>
+    Enter number of blocks per characteristic here: (seperated by whitespaces)
     <br/>
-    <p style={{textAlign: "center",}}>
     <input type="text" name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
-    </p>
     <br/><br/>
 
-    <p style={{textAlign: "center",}}> <button type="submit">submit</button> </p>
+    <button type="submit">submit</button>
 
 </form>
     </div>
