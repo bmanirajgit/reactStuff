@@ -52,7 +52,7 @@ Then press 'submit'</p>
 
     Enter number of Characteristics here:
     <br/>
-    <style = {{justifyContent: 'center', alignItems:'center',}} input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
+    <input type="text" style = {{justifyContent: 'center', alignItems:'center',}} name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     <br/><br/>
     Enter number of blocks per characteristic here: (seperated by whitespaces)
     <br/>
