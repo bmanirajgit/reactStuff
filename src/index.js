@@ -73,7 +73,9 @@ Then press 'submit'</p>
 
     Enter number of Characteristics here:
     <br/>
+    <p style={{textAlign: "center",}}>
     <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
+    </p>
     <br/><br/>
     Enter number of blocks per characteristic here: (seperated by whitespaces)
     <br/>
