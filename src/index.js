@@ -84,7 +84,7 @@ Then press 'submit'</p>
     </p>
     <br/><br/>
 
-    <button type="submit">submit</button>
+    <p style={{textAlign: "center",}}> <button type="submit">submit</button> </p>
 
 </form>
     </div>
