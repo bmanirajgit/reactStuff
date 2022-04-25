@@ -41,8 +41,6 @@ function Assignment8(props) {
   return (
     
     <div style = {{
-        display: "flex",
-        justifyContent: "center",
         alignItems: "center"
       }}>
   <style>
