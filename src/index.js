@@ -77,7 +77,7 @@ Then press 'submit'</p>
     <input type="text" name="numEntry" id="numEntryID" placeholder="(e.g. 3)" size="60" value={firstValue} onChange={handleFirstValueChange} ></input>
     </p>
     <br/><br/>
-    Enter number of blocks per characteristic here: (seperated by whitespaces)
+    <p>Enter number of blocks per characteristic here: (seperated by whitespaces)</p>
     <br/>
     <input type="text" name="userNumEntry" placeholder="(e.g. 2 7 5)" size="60" value={secondValue} onChange={handleSecondValueChange}></input>
     <br/><br/>
